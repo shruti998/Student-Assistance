@@ -1,18 +1,3 @@
-# Project topic: Student Assistance
-
-### Team Members:
-
-### Romil Tiwari (002771759)
-### Shruti Srivastava (002703686)
-### Farida Fakhri (002770621)
-### Anjali Kakade (002923023)
-
-| Northeastern-ID | Name | Email-ID 
-| --- | --- | --- 
-|002771759 | Romil Tiwari | tiwari.rom@northeastern.edu
-|002703686 | Shruti Srivastava | srivastava.shru@northeastern.edu
-|002770621 | Farida Fakhri | fakhri.f@northeastern.edu
-|002923023 | Anjali Kakade | kakade.a@northeastern.edu
 
 # Project Description:
 
