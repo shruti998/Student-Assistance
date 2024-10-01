@@ -1,29 +1,26 @@
-# Use Node.js for building the React app
-FROM node:16 AS build
+# Dockerfile
+FROM node:16
 
-# Set working directory
 WORKDIR /app
 
 # Copy package.json and package-lock.json
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 # Copy the rest of the client files
-COPY . ./
+COPY . .
 
-# Build the React application
+# Build the client (if needed)
 RUN npm run build
 
-# Use Nginx to serve the built React application
+# Use nginx to serve the client
 FROM nginx:alpine
-
-# Copy the build output to Nginx's default HTML folder
-COPY --from=build /app/build /usr/share/nginx/html
+COPY --from=0 /app/build /usr/share/nginx/html
 
 # Expose the port
 EXPOSE 80
 
-# Start Nginx
+# Start nginx
 CMD ["nginx", "-g", "daemon off;"]
