@@ -1,0 +1,116 @@
+.searchedItem {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.searchedImage {
+    width: 180px;
+    height: 150px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchedDescription {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 10px;
+}
+
+.title-housing {
+    font-size: 30px;
+    color: #0071c2;
+    text-align: left;
+}
+
+.searchedAddress {
+    font-size: 20px;
+    text-align: left;
+}
+
+.features {
+    font-size: 20px;
+    text-align: left;
+}
+
+.availability {
+    font-size: 20px;
+    text-align: left;
+}
+
+.searchedDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.searchedType {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.searchedType>button {
+    background-color: #E07338;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.searchedDetailsText {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.searchedPrice {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.moreInfo {
+    background-color: #E07338;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.hType {
+    background-color: #E07338;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px;
+    width: fit-content;
+    margin-left: 100px;
+
+
+}
+
+.like {
+    color: gray;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    width: fit-content;
+    margin-top: -45px;
+    margin-left: 120px;
+    height: 45px;
+    width: 45px;
+    font-size: 20px;
+
+
+
+}

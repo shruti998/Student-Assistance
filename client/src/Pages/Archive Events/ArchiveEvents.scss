@@ -1,0 +1,18 @@
+.savedevent-image-container {
+	display: flex;
+	justify-content: center;
+	height: 300px;
+    margin-top: 40px;
+	padding: 16px 32px;
+  }
+
+  .saved-header {
+    padding: 10px;
+    border-radius: 10px;
+    font: 1em sans-serif;
+    top: 10px;
+    position: sticky;
+    width: 600px;
+    height:fit-content;
+    border: 2px solid #000;
+}

@@ -1,0 +1,223 @@
+// Style Class for Login
+// Style for header
+.main-signup-header {
+	padding: 10px;
+	border-radius: 10px;
+	font: 3em sans-serif;
+	top: 10px;
+	position: sticky;
+	width: 600px;
+	height: fit-content;
+	border: 2px solid #000;
+}
+
+// Style for register
+.main-signup-header-register {
+  padding: 10px;
+	border-radius: 10px;
+	font: 3em sans-serif;
+	top: 10px;
+	position: sticky;
+	width: 600px;
+	height: 540px;
+	border: 2px solid #000;
+}
+
+// Style for sign up
+.main-signin-header {
+  padding: 10px;
+	border-radius: 10px;
+	font: 3em sans-serif;
+	top: 10px;
+	position: sticky;
+	width: 600px;
+	height: fit-content;
+	border: 2px solid #000;
+}
+
+// Style for header top element
+.heading-top{
+  font-size: 20px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+// Style for image container
+.landing-image-container-signup  {
+	display: flex;
+  justify-content: center;
+	height: 300px;
+	padding: 16px 32px;
+}
+// Style for button
+.button1 {
+    border: 1px;
+    margin-top: 40px;
+    color: white;
+	margin-left: 10px;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition-duration: 0.4s;
+	border-radius: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+    cursor: pointer;
+  }
+
+  // Style for button6
+.button6 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  // hover for button 6
+  .button6:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  // Style for forgot password
+  .forgot-password {
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+// Style for user title
+  .user-title {
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+// Style for form
+.form-style-8{
+	width: 700px;
+	height: max-content;
+	background:#fff;
+	border-radius:2px;
+	padding:20px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-style-8 ul{
+	list-style:georgian;
+	padding:0;
+	margin:0;	
+}
+
+.form-style-8 li{
+	display: block;
+	padding: 10px;
+	border:1px solid #DDDDDD;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+
+.form-style-8 li > label{
+	display: block;
+	float: left;
+	margin-top: -19px;
+	background: #FFFFFF;
+	height: 20px;
+	padding: 2px 5px 2px 5px;
+	color: #B9B9B9;
+	font-size: 14px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-8 input[type="text"]:focus,
+.form-style-8 input[type="date"]:focus,
+.form-style-8 input[type="datetime"]:focus,
+.form-style-8 input[type="time"]:focus,
+.form-style-8 input[type="password"]:focus,
+.form-style-8 textarea:focus,
+.form-style-8 select:focus 
+{
+}
+
+.form-style-8 li > span{
+	background: #F3F3F3;
+	display: block;
+	padding: 3px;
+	margin: 0 -9px -9px -9px;
+	text-align: center;
+	color: #752424;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.form-style-8 textarea{
+	resize:none;
+}
+
+.form-style-8 input[type="submit"],
+.form-style-8 input[type="button"]{
+	background: #060606;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	border-bottom: 3px solid #5994FF;
+	border-radius: 3px;
+	color: #D2E2FF;
+}
+.form-style-8 input[type="submit"]:hover,
+.form-style-8 input[type="button"]:hover{
+	background: #6B9FFF;
+	color:#fff;
+}
+
+// Style for button
+.verify-button {
+	margin-top: -50px;
+}
+
+.button3 {
+	border: 1px;
+    color: white;
+	margin-left: 10px;
+    text-align: center;
+    width: fir;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    transition-duration: 0.4s;
+	border-radius: 10px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+    cursor: pointer;
+}
+.adminoruser{
+	display: flex;
+	gap: 20px;
+}
+.ad{
+	background: white;
+}
+.ad:active{
+	background:  #555555;
+}
+.active{
+	background: #555555;
+}
+

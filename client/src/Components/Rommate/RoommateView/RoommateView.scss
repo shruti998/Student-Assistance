@@ -1,0 +1,109 @@
+.roommate-edit-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 20px;
+	gap: 5px;
+	background: #fff;
+	border-radius: 2px;
+	margin-top: 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.roommate-edit-form-item {
+	display: block;
+	padding: 10px;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+.roommate-edit-form-item-2 {
+	grid-column: span 2;
+	display: block;
+	padding: 10px;
+	border: 1px solid #DDDDDD;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+.label-roommate {
+	display: block;
+	float: left;
+	margin-top: -19px;
+	background: #FFFFFF;
+	height: 20px;
+	padding: 2px 5px 2px 5px;
+	color: #B9B9B9;
+	font-size: 14px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+textarea,
+select {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	display: block;
+	outline: none;
+	border: none;
+	height: 25px;
+	line-height: 25px;
+	font-size: 16px;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.span-roomate-view {
+	background: #F3F3F3;
+	display: block;
+	padding: 3px;
+	margin: 0 -9px -9px -9px;
+	text-align: center;
+	color: #752424;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+input[type="submit"],
+input[type="button"],
+input[type="file"] {
+	background: #F3F3F3;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+	color: #752424;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="file"]:hover {
+	background: #e07338;
+	color: #fff;
+}
+
+#profile-picture-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
+}
+
+#profile-picture-container img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+ul {
+	text-align: left;
+}

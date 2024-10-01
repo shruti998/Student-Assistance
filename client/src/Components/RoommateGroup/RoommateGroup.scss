@@ -1,0 +1,12 @@
+.group-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

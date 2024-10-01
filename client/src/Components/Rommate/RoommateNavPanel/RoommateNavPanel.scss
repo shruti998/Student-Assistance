@@ -1,0 +1,27 @@
+.nav-panel-container {
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: start;
+  border-radius: 4px;
+  gap: 10px;
+}
+
+.nav-panel-item {
+  text-align: end;
+}
+
+.roommate-nav-main-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.roommate-nav-container {
+  border: 2px solid rgb(208, 208, 208);
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+}

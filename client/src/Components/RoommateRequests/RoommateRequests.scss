@@ -1,0 +1,13 @@
+.request-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 16px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.event-both-result {
+  flex: 3 1;
+}

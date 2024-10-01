@@ -1,0 +1,25 @@
+.button-container{
+    width: 20%;
+    display: flex;
+}
+.btn1{
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn2{
+    background-color: #E07338;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}

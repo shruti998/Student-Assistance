@@ -1,0 +1,102 @@
+.bannerText {
+    position: absolute;
+    left: 95px;
+    right: 62.64%;
+    top: 350px;
+    bottom: 81.87%;
+    font-family: DM Sans;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+  
+  .bannerTextHeader {
+    position: absolute;
+    width: 756px;
+    height: 233px;
+    left: -40px;
+    top: 133px;
+  
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    color: white;
+  }
+  
+  .bgImage {
+    position: relative;
+    margin-top: -16px;
+    margin-left: -18px;
+    height: 100vh;
+    width: 1450px;
+    background-size: cover;
+    background-image: linear-gradient(
+        198.73deg,
+        rgba(0, 0, 0, 0.0001) 15.31%,
+        rgba(0, 0, 0, 0.837986) 67.37%
+      ),
+      url(../../../assets/houseBanner.jpg);
+  }
+  
+  .roomateimg {
+    position: relative;
+    margin-top: 46px;
+    margin-left: -18px;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: linear-gradient(
+        198.73deg,
+        rgba(0, 0, 0, 0.0001) 15.31%,
+        rgba(0, 0, 0, 0.837986) 67.37%
+      ),
+      url(../../../assets/roomate.jpg);
+  }
+  .eventsimg {
+    position: relative;
+    margin-top: 70px;
+    margin-left: -18px;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: linear-gradient(
+        198.73deg,
+        rgba(0, 0, 0, 0.0001) 15.31%,
+        rgba(0, 0, 0, 0.837986) 67.37%
+      ),
+      url(../../../assets/events.jpg);
+  }
+  
+  .explore {
+    position: relative;
+    flex: 1;
+    font-size: 150%;
+    position: absolute;
+    width: 209px;
+    height: 70px;
+    left: 80px;
+    float: right;
+    top: 550px;
+  
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+  
+    border-radius: 5px 30px 5px 5px;
+    background-color: black;
+    color: #e07338;
+    border: 2px solid #555555;
+    .explore :hover {
+      background-color: white;
+      color: black;
+    }
+    
+  }
+  
+  
+  

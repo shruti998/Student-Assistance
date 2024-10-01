@@ -1,0 +1,152 @@
+/**
+ * Title : Housing.scss
+ * Description : Styling the Housing
+ * @author : Shruti Srivastava
+ */
+ //Style for searched container
+ .searchContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.searchWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+ //Style for list
+.listSearch {
+  flex: 2;
+  border: 2px solid rgb(190, 186, 186);
+  padding: 10px;
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+  height: max-content;
+  background-color: rgba(171, 164, 164, 0.15); 
+  
+}
+//Element Styling
+.lsTitle{
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.lsItem{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+
+}
+
+.lsItem>label{
+  font-size: 12px;
+}
+
+.lsItem>input{
+  height: 30px;
+  border: none;
+  padding: 5px;
+  background-color: white;
+}
+.lsItem>span{
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.lsOptions{
+  padding: 10px;
+}
+
+.lsOptionItem{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+}
+
+.lsOptionInput{
+  width: 50px;
+}
+
+.listSearch>button{
+  padding: 10px;
+  background-color:#E07338;
+  color: white;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.listResult {
+  flex: 3;
+}
+.radiop{
+
+  height: 30px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+.lsI{
+  justify-content: space-between;
+  padding: 5px;
+ 
+}
+//house container styling
+
+.houseContainer {
+  display: flex;
+  justify-content: left;
+  margin-top: 100px;
+}
+
+.main-housing-header {
+  padding: 10px;
+  border-radius: 10px;
+  font: 1em sans-serif;
+  top: 10px;
+  position: sticky;
+  width: 600px;
+  height: max-content;
+  border: 2px solid #000;
+}
+
+.heading-top{
+  font-size: 20px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.archive-header {
+  padding: 10px;
+  border-radius: 10px;
+  font: 1em sans-serif;
+  top: 10px;
+  position: sticky;
+  width: 600px;
+  height: fit-content;
+  border: 2px solid #000;
+}
+
+.landing-archive-housing-container {
+  display: flex;
+ justify-content: center;
+  height: 250px;
+  padding: 16px 32px;
+}

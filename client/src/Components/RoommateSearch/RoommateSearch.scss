@@ -1,0 +1,20 @@
+.search-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(171, 164, 164, 0.15);
+}
+
+.search-container .title {
+  grid-column: 1/4;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
